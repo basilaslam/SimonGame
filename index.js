@@ -4,6 +4,9 @@ var gamePattern = [];
 var userClickedPattern = [];
 var level = 0;
 var started = false
+$("h1").before("<input></input>")
+
+$("input").css("background-color", "#011F3F")
 
 
 $(document).keypress(()=>{
